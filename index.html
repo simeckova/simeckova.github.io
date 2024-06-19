@@ -1,33 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-<script>
-function loadFiles() {
-  const xhreq = new XMLHttpRequest();
-  xhreq.onload = function() {
-    document.getElementById("listfiles").innerHTML = this.responseText;
-  }
-  xhreq.open("GET", "https://d3s.mff.cuni.cz/msoc-file-service/listfiles.php", true);
-  xhreq.send();
-}
-</script> 
-</head>
-
 <body>
-
-<div>
-
-<h2>List of files:</h2>
-<p id="listfiles">
-To be downloaded from the server using AJAX
-</p>
-
-<button type="button" onclick="loadFiles()">Download</button>
-
-</div>
-
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages by S.</p>
 </body>
-
-</html> 
-
+</html>
